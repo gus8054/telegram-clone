@@ -1,0 +1,24 @@
+/* reset */
+@import "reset.css";
+/* variable */
+@import "variable.css";
+/* font  */
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Noto+Sans+KR&display=swap");
+/* components */
+@import "components/header-bar.css";
+@import "components/nav-bar.css";
+@import "components/chatting-room-list.css";
+@import "components/home-bar.css";
+/* sreen */
+@import "screens/index.css";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  padding: 0px 60px;
+  margin-bottom: calc(var(--home-bar-height) - 1px);
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: black;
+}

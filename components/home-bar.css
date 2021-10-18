@@ -1,0 +1,15 @@
+.home-bar {
+  position: fixed;
+  left: 60px;
+  bottom: 0px;
+  height: var(--home-bar-height);
+  width: calc(100% - 120px);
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-bar__column {
+  width: 33%;
+  text-align: center;
+}

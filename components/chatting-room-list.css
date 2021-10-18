@@ -1,0 +1,65 @@
+.chatting-room-list {
+  width: 100%;
+  height: 70px;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.chatting-room-list__column:first-of-type {
+  width: 20%;
+}
+.chatting-room-list__column:nth-of-type(2) {
+  width: 60%;
+}
+.chatting-room-list__column:nth-of-type(2),
+.chatting-room-list__column:last-of-type {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid #e2e2e2;
+}
+.chatting-room-list__column:last-of-type {
+  width: 20%;
+  align-items: flex-end;
+  font-family: "Gamja Flower", cursive;
+  color: gray;
+}
+.chatting-room-list__img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a9b5c1;
+  color: white;
+}
+.chatting-room-list__img i {
+  font-size: 28px;
+}
+.chatting-room-list__row {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.chatting-room-list__column:nth-of-type(2)
+  .chatting-room-list__row:last-of-type {
+  font-family: "Gamja Flower", cursive;
+  font-size: 18px;
+  color: gray;
+}
+.chatting-room-list--selected .chatting-room-list__column {
+  border: none;
+}
+.chatting-room-list--selected {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #e2e2e2;
+}
+.color-blue {
+  color: #427ca7;
+  white-space: nowrap;
+}
