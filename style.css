@@ -1,7 +1,7 @@
 /* reset */
 @import "reset.css";
 /* variable */
-@import "variable.css";
+@import "variables.css";
 /* font  */
 @import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Noto+Sans+KR&display=swap");
 /* components */
@@ -17,8 +17,13 @@
 
 body {
   width: 100%;
-  padding: 0px 60px;
   margin-bottom: calc(var(--home-bar-height) - 1px);
   font-family: "Noto Sans KR", sans-serif;
   background-color: black;
+}
+.wrap {
+  min-width: 320px;
+  max-width: 500px;
+  margin: auto;
+  position: relative;
 }
