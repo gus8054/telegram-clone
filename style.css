@@ -14,7 +14,6 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   width: 100%;
   margin-bottom: calc(var(--home-bar-height) - 1px);

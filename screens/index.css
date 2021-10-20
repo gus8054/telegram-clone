@@ -22,3 +22,21 @@
 .chatting-room-list__img--jinho {
   background-color: #76c84c;
 }
+.edit {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: calc(var(--home-bar-height) + 20px);
+  right: 20px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #66a9e0;
+}
+.edit i {
+  color: white;
+  font-size: 24px;
+}
+.nav {
+}

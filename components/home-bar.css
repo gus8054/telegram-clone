@@ -11,6 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: scale(1);
 }
 .home-bar__column {
   width: 33%;
